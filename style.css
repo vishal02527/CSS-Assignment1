@@ -1,0 +1,227 @@
+/*
+    Guidlines for assignment:
+
+    1. You have to add the hover effect on menu items. On hover, the menu items should get the underline.
+    2. You have to add the hover effect on the checkbox card at the bottom. On hover, the checkbox color should be blue and the card background color should be white.
+    3. You do NOT have to make the checkboxes clickable. That means you do not have to use the input type checkbox to create it. You can either use an image or icons to design it.
+*/
+body {
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	text-align: justify;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+header {
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.row {
+	display: flex;
+}
+
+#logo {
+	height: 70px;
+    width: 170px;
+    margin-left: 20px;
+	cursor: pointer;
+}
+
+div a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav-item {
+	margin: 20px;
+}
+
+.nav-item:hover {
+	text-decoration: underline #5243c0 solid 3px;
+}
+
+button {
+	padding: 15px 22px;
+	border: none;
+	cursor: pointer;
+	border-radius: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#your_account_btn {
+	background-color: #FFD8DB;
+    margin-right: 50px;
+}
+
+#btn1 {
+	text-decoration: none;
+	color: #A389CC;
+}
+
+section {
+	padding: 4em;
+}
+
+#main_content {
+	width: 38vw;
+	margin-left: 100px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.container{
+    width: 500px;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 900;
+}
+
+.blue_dot {
+	font-size: 24px;
+    color: #5243c0;
+}
+
+.para{
+    margin-top: 2em;
+    opacity: 0.7;
+}
+
+.btn-arrow {
+    margin-top: 2.6em;
+	margin-bottom: 4em;
+}
+
+#new_account_btn {
+	background-color: #5243C0;
+}
+
+#btn2 {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.arrow-up {
+	margin-left: 5.3em;
+    cursor: pointer;
+}
+
+.arrow-down{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.card {
+	font-size: 14px;
+	padding: 5px 15px 0px 8px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	background-color: #f9f9f9;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: #ffffff;
+	box-shadow: 6px 6px 12px 2px rgba(230, 230, 230, 1);
+}
+
+.card:hover .pinkbox-wrapper {
+	display: none;
+}
+
+.card:hover .pinkbox {
+	display: inline;
+}
+
+.pinkbox{
+	display: none;
+}
+
+.card:hover .orangebox-wrapper {
+	display: none;
+}
+
+.card:hover .orangebox {
+	display: inline;
+}
+
+.orangebox{
+	display: none;
+}
+
+.card:hover .greenbox-wrapper {
+	display: none;
+}
+
+.card:hover .greenbox {
+	display: inline;
+}
+
+.greenbox{
+	display: none;
+}
+
+.card:hover .yellowbox-wrapper {
+	display: none;
+}
+
+.card:hover .yellowbox {
+	display: inline;
+}
+
+.yellowbox{
+	display: none;
+}
+
+.card-checkbox, .card-user-image {
+	height: 40px;
+	width: 40px;
+}
+
+.card-text {
+	white-space: nowrap;
+	font-weight: bold;
+	width: 40%;
+    margin-left: 20px;
+}
+
+.card-user-image{
+    margin-right: 70px;
+}
+
+.card-date {
+	color: #c3c3c3;
+    margin-right: 35px;
+}
+
+.strip {
+	height: 12px;
+	width: 2em;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+.pink {
+	background-color: #FED7DA; 
+}
+
+.red {
+	background-color: #FD6534;
+}
+
+.green {
+	background-color: #9ED095;
+}
+
+.yellow {
+	background-color: #FFE4A0;
+}
